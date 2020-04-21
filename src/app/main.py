@@ -4,7 +4,7 @@ from starlette.requests import Request
 from starlette.responses import Response
 from app.http_resource_routers import root_resource
 from app.db import SessionLocal, engine
-from app.dao import entities
+from app.persistence import entities
 
 
 entities.Base.metadata.create_all(bind=engine)
