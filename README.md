@@ -1,6 +1,8 @@
-# MoonShuttle - A FastAPI-based Microservice Project Template
+# MoonShuttle - Identity Management Microservice (Work in progress)
 
-MoonShuttle is a FastAPI-based project template to quickly build maintainable Python-based microservices. 
+Provides basic functionality such as registering user accounts, assign claims, authenticate them and 
+issue JWT Access Tokens. 
 
-More info will be added soon.
+
+
 
